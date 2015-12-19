@@ -48,3 +48,11 @@ group :development do
   gem 'pry-rails'
 end
 
+group :test do
+  gem 'rspec-rails', '~> 3.0'
+  gem 'guard-rspec', require: false
+  gem 'fuubar'
+  gem 'shoulda-matchers', '~> 3.0'
+  gem 'capybara'
+  gem 'factory_girl_rails'
+end
